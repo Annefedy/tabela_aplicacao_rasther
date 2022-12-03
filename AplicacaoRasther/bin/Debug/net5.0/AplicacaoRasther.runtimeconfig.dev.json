@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\novad\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\novad\\.nuget\\packages"
-    ]
-  }
-}

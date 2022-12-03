@@ -1,25 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zSl4mgBOqMfrfWm/y2NACHXhKy8LVL8Dq5/stiFgNVBctgHnX32I9f8GS3sC0WGd9PTUscVsSAiytVKBFWVM4w==",
+  "dgSpecHash": "d9OzUKdQ72J722ShPvUJPexZryi8vrqMPpdITSpzkWbARHO+S2YFCj0XjdNVpC0Y45y/ZSO0kHoA316mz5wASQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\tabela_aplicacao_rasther\\AplicacaoRasther\\AplicacaoRasther.fsproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\novad\\.nuget\\packages\\fsharp.core\\6.0.6\\fsharp.core.6.0.6.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.17.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.17\\microsoft.aspnetcore.razor.language.5.0.17.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.8.0\\microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.codeanalysis.razor\\5.0.17\\microsoft.codeanalysis.razor.5.0.17.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
-    "C:\\Users\\novad\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Projects\\AplicacaoRasther\\AplicacaoRasther.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
