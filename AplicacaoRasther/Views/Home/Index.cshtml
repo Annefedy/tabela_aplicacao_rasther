@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="row">
+        <div class="col-xs-4">
+            @Html.DropDownList("Nome", new SelectList(ViewBag.CategoriasList,"Nome"))
+       </div> 
+       
+       <div class="col-xs-4">
+            @Html.DropDownList("Nome", new SelectList(ViewBag.MontadoraList,"Id", "Nome"))
+       </div> 
+       
+       <div class="col-xs-4">
+            @Html.DropDownList("Nome", new SelectList(ViewBag.VeiculoList,"Id", "Nome"))
+       </div>
+
+       @* <div class="col-xs-4">
+            @Html.DropDownList("Nome", new SelectList(ViewBag.MotorizacaoList,"Id", "Nome"))
+        </div>
+*@
+    </div>
+</div>

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "d9OzUKdQ72J722ShPvUJPexZryi8vrqMPpdITSpzkWbARHO+S2YFCj0XjdNVpC0Y45y/ZSO0kHoA316mz5wASQ==",
+  "dgSpecHash": "p0C8SXTreyhZIPgALTEaNuFVbkSKAYYgsRiDuSKIjewDsfL8+PrSOcGGLNLV43OKjtZ3xTglaT58VIgQLOLpnA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\AplicacaoRasther\\AplicacaoRasther.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\novad\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.17\\microsoft.aspnetcore.jsonpatch.5.0.17.nupkg.sha512",
+    "C:\\Users\\novad\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.17\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.17.nupkg.sha512",
+    "C:\\Users\\novad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\novad\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\novad\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
