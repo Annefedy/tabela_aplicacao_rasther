@@ -1,5 +1,6 @@
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\appsettings.Development.json
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\appsettings.json
+C:\Projects\AplicacaoRasther\bin\Debug\net5.0\libman.json
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.exe
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.deps.json
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.runtimeconfig.json
@@ -8,6 +9,10 @@ C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.dll
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.pdb
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.Views.dll
 C:\Projects\AplicacaoRasther\bin\Debug\net5.0\AplicacaoRasther.Views.pdb
+C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.csproj.AssemblyReference.cache
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.AssemblyInfoInputs.cache
@@ -31,13 +36,9 @@ C:\Projects\AplicacaoRasther\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.RazorTargetAssemblyInfo.cache
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.RazorTargetAssemblyInfo.cs
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.Views.pdb
+C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.csproj.CopyComplete
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.dll
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\refint\AplicacaoRasther.dll
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.pdb
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.genruntimeconfig.cache
 C:\Projects\AplicacaoRasther\obj\Debug\net5.0\ref\AplicacaoRasther.dll
-C:\Projects\AplicacaoRasther\obj\Debug\net5.0\AplicacaoRasther.csproj.CopyComplete
-C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Projects\AplicacaoRasther\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

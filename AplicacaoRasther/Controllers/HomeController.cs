@@ -32,7 +32,7 @@ namespace AplicacaoRasther.Controllers
         }
 
         #region GET LIST OF CATEGORY
-        public async Task<List<string>> GetCategories()
+        public async Task GetCategories()
         {
 
             using (HttpClient Client = new HttpClient())
@@ -45,7 +45,7 @@ namespace AplicacaoRasther.Controllers
                     await GetMontadoras();
                 }
             }
-            return Categoria.CategoriasList;
+           
         }
         #endregion
 
@@ -78,8 +78,10 @@ namespace AplicacaoRasther.Controllers
                 HttpResponseMessage response = await Client.GetAsync(PathVeiculo);
                 var result = await response.Content.ReadAsStringAsync();
                 if (response.IsSuccessStatusCode)
+                {
                     ViewBag.VeiculoList = JsonConvert.DeserializeObject<List<Veiculo>>(result);
-                // await GetMotorizacoa();
+                     await GetMotorizacoa();
+                }
             }
         }
         #endregion
