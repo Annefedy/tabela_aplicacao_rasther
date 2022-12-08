@@ -1,31 +1,51 @@
-﻿@{
+﻿@using AplicacaoRasther.Models.ViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
+@model GenericModel
+
 <div class="text-center">
     <div class="row">
-        <div class="col-xs-4">
-            @Html.DropDownList("Nome", new SelectList(ViewBag.CategoriasList,"Nome"))
-       </div> 
-       
-       <div class="col-xs-4">
-            @Html.DropDownList("Nome", new SelectList(ViewBag.MontadoraList,"Id", "Nome"))
-       </div> 
-       
-       <div class="col-xs-4">
-            @Html.DropDownList("Nome", new SelectList(ViewBag.VeiculoList,"Id", "Nome"))
-       </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-xs-4">
-            @Html.DropDownList("Nome", new SelectList(ViewBag.MotorizacaoList,"Id","Nome"))
-       </div> 
+        <div class="col-xs-4" style="padding:10px">
+            <div class="form-group">
+                <label class="control-label">Categoria:</label>
+                <select name="Categoria.Nome" asp-for="Categoria.Nome"
+                        asp-items="@( new SelectList(Model.Categoria.CategoriasList))" required class="form-control">
+                    <option selected disabled="disabled">--Selecione a Categoria--</option>
+                </select>
+            </div>
+        </div> 
+
+        <div class="col-xs-4" style="padding:10px">
+            <div class="form-group">
+                <label class="control-label">Montadora:</label>
+                <select name="Montadora.Nome" asp-for="Montadora.Nome"
+                        asp-items="@( new SelectList(Model.Montadora.MontadoraList,"Id","Nome"))" required class="form-control">
+                    <option selected disabled="disabled">--Selecione a Montadora--</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-xs-4" style="padding:10px">
+            <div class="form-group">
+                <label class="control-label">Veiculo:</label>
+                <select name="Veiculo.Nome" asp-for="Veiculo.Nome"
+                        asp-items="@( new SelectList(Model.Veiculo.VeiculoList,"Id","Nome"))" required class="form-control">
+                    <option selected disabled="disabled">--Selecione o Veiculo--</option>
+                </select>
+            </div>
+        </div>
+        
+        @*<div class="col-xs-4" style="padding:10px">
+            <div class="form-group">
+                <label class="control-label">Motorizacão:</label>
+                <select name="Motorizacao.Nome" asp-for="Motorizacao.Nome"
+                        asp-items="@( new SelectList(Model.Motorizacao.MotorizacaoList,"Id","Nome"))" required class="form-control">
+                    <option selected disabled="disabled">--Selecione a Motorizacao--</option>
+                </select>
+            </div>
+        </div>*@
+
+   
     </div>
 </div>
-@section scripts{
-    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
-    <script>
-     
-    </script>
-}
